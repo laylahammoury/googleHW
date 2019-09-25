@@ -1,0 +1,28 @@
+body, html, .container{
+    height: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-img img{
+    width: 600px;
+    height: 400px;
+}
+
+.main form{
+    width: 100%;
+}
+.main form input[type=text]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
